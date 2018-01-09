@@ -1,5 +1,5 @@
 # Android SDK
-<hr>
+---
 ## 1.	SDK 초기 설정
 <hr>
 ## setBaseSettings
