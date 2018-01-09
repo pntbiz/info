@@ -85,10 +85,11 @@ public void checkServerLastModified(int which, String uuidForMap)
 서버에 BEACON 및 Graph(Node)정보가 업데이트되었는지 여부를 조회한다.
 
 ### Parameter
-- which  : CHECK_SERVER_NODE = 1; node 정보 조회
-         : CHECK_SERVER_BEACON = 2; beacon 정보 조회
-         : CHECK_SERVER_MAP = 4; MAP 정보 조회
-         : CHECK_SERVER_ALL = 5: 모든 정보 조회
+- which:
+         - CHECK_SERVER_NODE = 1; node 정보 조회
+         - CHECK_SERVER_BEACON = 2; beacon 정보 조회
+         - CHECK_SERVER_MAP = 4; MAP 정보 조회
+         - CHECK_SERVER_ALL = 5: 모든 정보 조회
 
 
 ### return
