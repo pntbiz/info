@@ -1,7 +1,8 @@
 # Android SDK
 
-## 1.	SDK 초기 설정
-### setBaseSettings
+
+# 1.	SDK 초기 설정
+## setBaseSettings
 
 public void setBaseSettings(Context ctx, String domain, String intentPrefix)
 
@@ -20,8 +21,8 @@ Config_Base.setBaseSettings(getApplicationContext(), "https://api.pnuh.pntbiz.co
 
 ---
 
-## 2. BEACON 및 GRAPH 정보 설정
-### setLocationInfo
+# 2. BEACON 및 GRAPH 정보 설정
+## setLocationInfo
 public void setLocationInfo(String localFilePrefix, boolean useLocalData)
 
 현재 장소에 대한 정보를 설정한다
@@ -34,7 +35,7 @@ public void setLocationInfo(String localFilePrefix, boolean useLocalData)
 ### return
 없음
 
-### loadGraphInfoFromFile
+## loadGraphInfoFromFile
 public void loadGraphInfoFromFile(String prefix, boolean useFileFromAssets)
 
 현재 사이트에 대한 Graph(node) 정보를 얻어온다.
