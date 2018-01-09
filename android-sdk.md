@@ -1,7 +1,7 @@
 # Android SDK
 
-# 1.	SDK 초기 설정
-## setBaseSettings
+## 1.	SDK 초기 설정
+### setBaseSettings
 
 public void setBaseSettings(Context ctx, String domain, String intentPrefix)
 
@@ -20,8 +20,8 @@ Config_Base.setBaseSettings(getApplicationContext(), "https://api.pnuh.pntbiz.co
 
 ---
 
-# 2. BEACON 및 GRAPH 정보 설정
-## setLocationInfo
+## 2. BEACON 및 GRAPH 정보 설정
+### setLocationInfo
 public void setLocationInfo(String localFilePrefix, boolean useLocalData)
 
 현재 장소에 대한 정보를 설정한다
@@ -36,7 +36,7 @@ public void setLocationInfo(String localFilePrefix, boolean useLocalData)
 
 ---
 
-## loadGraphInfoFromFile
+### loadGraphInfoFromFile
 public void loadGraphInfoFromFile(String prefix, boolean useFileFromAssets)
 
 현재 사이트에 대한 Graph(node) 정보를 얻어온다.
@@ -50,7 +50,7 @@ public void loadGraphInfoFromFile(String prefix, boolean useFileFromAssets)
 
 ---
 
-## loadBeaconInfoFromFile
+### loadBeaconInfoFromFile
 public void loadBeaconInfoFromFile(String prefix, boolean useFileFromAssets)
 
 현재 사이트에 대한 beacon 정보를 얻어온다.
@@ -64,7 +64,7 @@ public void loadBeaconInfoFromFile(String prefix, boolean useFileFromAssets)
 
 ---
 
-## useServer
+### useServer
 public void useServer()
 
 Beacon 및 Graph 정보를 얻어오기 위해 서버를 사용한다. doNotUseServer 호출 후 다시 서버를 사용하기 위해 호출한다.
@@ -77,7 +77,7 @@ Beacon 및 Graph 정보를 얻어오기 위해 서버를 사용한다. doNotUseS
 
 ---
 
-## checkServerLastModified
+### checkServerLastModified
 public void checkServerLastModified(int which, String uuidForMap)
 
 서버에 BEACON 및 Graph(Node)정보가 업데이트되었는지 여부를 조회한다.
