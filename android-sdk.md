@@ -1,7 +1,7 @@
 # Android SDK
-<br>
+<hr>
 ## 1.	SDK 초기 설정
-<br>
+<hr>
 ## setBaseSettings
 
 public void setBaseSettings(Context ctx, String domain, String intentPrefix)
@@ -22,7 +22,7 @@ Config_Base.setBaseSettings(getApplicationContext(), "https://api.pnuh.pntbiz.co
 ---
 
 ## 2. BEACON 및 GRAPH 정보 설정
-<br>
+<hr>
 ## setLocationInfo
 public void setLocationInfo(String localFilePrefix, boolean useLocalData)
 
