@@ -1,5 +1,4 @@
 # Android SDK
----
 
 # 1.	SDK 초기 설정
 ## setBaseSettings
@@ -18,6 +17,7 @@ SDK 관련 초기 설정을 수행한다. SDK 를 실행 전에 반드시 호출
 
 ### 사용 예 
 Config_Base.setBaseSettings(getApplicationContext(), "https://api.pnuh.pntbiz.com", "com.pnt.v4_3p.hyuh");
+
 ---
 
 # 2. BEACON 및 GRAPH 정보 설정
@@ -33,6 +33,7 @@ public void setLocationInfo(String localFilePrefix, boolean useLocalData)
 
 ### return
 없음
+
 ---
 
 ## loadGraphInfoFromFile
@@ -46,6 +47,7 @@ public void loadGraphInfoFromFile(String prefix, boolean useFileFromAssets)
 
 ### return
 없음
+
 ---
 
 ## loadBeaconInfoFromFile
@@ -59,6 +61,7 @@ public void loadBeaconInfoFromFile(String prefix, boolean useFileFromAssets)
 
 ### return
 없음
+
 ---
 
 ## useServer
@@ -71,6 +74,7 @@ Beacon 및 Graph 정보를 얻어오기 위해 서버를 사용한다. doNotUseS
 
 ### return
 없음
+
 ---
 
 ## checkServerLastModified
